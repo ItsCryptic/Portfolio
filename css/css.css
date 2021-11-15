@@ -1,0 +1,131 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+/* Changes how my work is displayed depending on screen width */
+@media (max-width: 800px) {
+    #flex-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+#container {
+    color: white;
+    background-color: #121212;
+    font-family: 'Viga', sans-serif;
+}
+
+#heading {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+}
+
+/*#osha {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ overflow: auto;
+ max-width: 100%;
+ max-height: 100%;
+ width: 500px;
+ height: 500px;
+}*/
+
+#profilepicture {
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 25%;
+ display: block;
+ max-width: 100%;
+}
+
+/*#certifications {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+}*/
+
+#heading1 {
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+
+#my-work {
+  font-family: 'Viga', sans-serif;
+  text-align: center;
+}
+
+/*.certification-text {
+ font-family: 'Viga', sans-serif;
+ text-align: center;
+}
+
+.certification-link {
+    padding: 30px;
+    border-radius: 25px;
+    border: solid white 1px;
+    text-decoration: none;
+    color: white;
+    transform: translate(-50%, -50%);
+}*/
+
+.responsive {
+    -moz-width: 100%;
+    width: auto;
+    -moz-max-width: 100%;
+    max-height: 200px;
+    max-width: 100%;
+    display: block;
+    -moz-height: 200px;
+    height: 200px;
+    -moz-max-height: auto;
+    padding: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.work-button:hover {
+    opacity: 0.5;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.spotify, .discord-status, .discord-tag {
+    text-align: center;
+}
+
+#sticky {
+    position: fixed;
+}
+
+#socials {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+#link {
+ color: white;
+ text-decoration: none;
+}
