@@ -1,6 +1,6 @@
 # Portfolio
 
-Live preview: https://portfolio-8p5.pages.dev/
+Live preview: https://kevvy.dev
 CDN: https://cdn.kevind.me/
 
 # Adding configuration file.
