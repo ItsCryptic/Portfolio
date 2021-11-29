@@ -35,6 +35,7 @@
               "src/about.css"
             ],
             "scripts": [
+              "src/app/src/jquery.min.js",
               "src/app/src/discord&spotify.ts"
             ]
           },

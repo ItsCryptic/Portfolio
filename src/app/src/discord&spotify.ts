@@ -1,4 +1,3 @@
-import '@types/jquery';
 function Api() {
     $(document).ready(function(){
             $.get("https://api.lanyard.rest/v1/users/202556225160871936", function({data}){
