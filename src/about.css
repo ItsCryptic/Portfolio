@@ -1,0 +1,15 @@
+#html, #css, #javascript, #python,#php {
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#bday-countdown, #countdown, #dating {
+    font-size: 30px;
+    text-align: center;
+}
+#bio {
+    text-align: center;
+}

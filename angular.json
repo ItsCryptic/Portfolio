@@ -24,12 +24,19 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/src"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css.css",
+              "src/dropdown.css",
+              "src/flipper.css",
+              "src/about.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/src/discord&spotify.ts"
+            ]
           },
           "configurations": {
             "production": {
