@@ -13,3 +13,11 @@
 #bio {
     text-align: center;
 }
+#text {
+ text-align: center;
+ display: block;
+}
+#osha {
+ text-align: center;
+ display: block;
+}

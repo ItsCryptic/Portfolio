@@ -37,7 +37,6 @@
             "scripts": [
               "src/app/src/jquery.min.js",
               "src/app/src/discord&spotify.ts",
-              "src/app/src/birthday.js",
               "src/app/src/prideMonth.js"
             ]
           },

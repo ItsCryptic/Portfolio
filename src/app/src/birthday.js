@@ -23,5 +23,3 @@ var birthday = setInterval(function() {
         document.getElementById("countdown").innerHTML = "(It's my birthday! 🥳)";
       }
 }, 1000);
-
- 
