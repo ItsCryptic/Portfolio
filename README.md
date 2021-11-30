@@ -1,5 +1,7 @@
 # Portfolio
 
+This is the angular rewrite of my portfolio. This is a massive work in progress and only page is properly implemented. Most features either don't exist or aren't there yet.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
