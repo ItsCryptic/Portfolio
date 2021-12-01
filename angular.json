@@ -25,19 +25,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/affinity.png",
-              "src/dashnetwork.png",
-              "src/cloud9.jpg",
-              "src/Kevin D (White).png",
-              "src/Kevin D (Black).png",
-              "src/selfie-rezied.jpg",
-              "src/meleecraft.png",
-              "src/VenomMC-cropped.png",
-              "src/VenomMC.png",
-              "src/vibemarket.org",
-              "src/vibemarket - transparent.png",
-              "src/teamx.png",
-              "src/profilepicture.png",
+              "src/app/src/img",
               "src/archived_projects"
             ],
             "styles": [
@@ -46,12 +34,15 @@
               "src/dropdown.css",
               "src/flipper.css",
               "src/about.css",
-              "src/admin.css"
+              "src/admin.css",
+              "src/dashboard.css"
             ],
             "scripts": [
               "src/app/src/jquery.min.js",
               "src/app/src/discord&spotify.ts",
-              "src/app/src/prideMonth.js"
+              "src/app/src/prideMonth.js",
+              "src/app/src/login.js",
+              "src/app/src/lightanddark.js"
             ]
           },
           "configurations": {
@@ -77,8 +68,8 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": false,
-              "optimization": false,
+              "buildOptimizer": true,
+              "optimization": true,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
