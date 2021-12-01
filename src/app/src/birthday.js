@@ -1,10 +1,10 @@
-var date = new Date("June 21 2022").getTime();
-var datee = new Date();
-var hour = datee.getHours();
+var birthdayDate = new Date("June 21 2022").getTime();
+var newDate = new Date();
+var hour = newDate.getHours();
 //I broke this in testing so I have to use 16 instead of 17 ;-;
 var age = 16;
-var minutes = datee.getMinutes();
-if (datee = date) {
+var minutes = newDate.getMinutes();
+if (newDate = birthdayDate) {
   var age = age + 1;
 }
 document.getElementById("age").innerHTML = age;
