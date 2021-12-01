@@ -1,6 +1,6 @@
 # Portfolio
 
-This is the angular rewrite of my portfolio. This is a massive work in progress and only page is properly implemented. Most features either don't exist or aren't there yet.
+Angular rewrite of my portfolio
 
 ## Development server
 
