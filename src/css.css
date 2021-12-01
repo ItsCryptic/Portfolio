@@ -124,6 +124,8 @@ footer {
     color: white;
     font-size: 30px;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #link {
  color: white;
@@ -134,4 +136,8 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#icons {
+    padding-left: auto;
+    padding-right: auto;
 }

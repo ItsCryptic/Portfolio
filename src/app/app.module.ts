@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NotFound404Component } from './not-found404/not-found404.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NotFound404Component } from './not-found404/not-found404.component';
     AppComponent,
     AboutComponent,
     HomeComponent,
-    NotFound404Component
+    NotFound404Component,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
