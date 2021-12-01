@@ -8,9 +8,9 @@ function toggle() {
 
 function changeTheme() {
   if (dark) {
-    document.getElementById("logo").src="../../img/Kevin D (Black).png";
+    document.getElementById("logo").src="../src/img/Kevin D (Black).png";
   } else {
-    document.getElementById("logo").src="../../img/Kevin D (White).png";
+    document.getElementById("logo").src="../src/img/Kevin D (Black).png";
   }
 }
 
