@@ -25,19 +25,19 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/app/affinity.png",
-              "src/app/dashnetwork.png",
-              "src/app/cloud9.jpg",
-              "src/app/Kevin D (White).png",
-              "src/app/Kevin D (Black).png",
-              "src/app/selfie-rezied.jpg",
-              "src/app/meleecraft.png",
-              "src/app/VenomMC-cropped.png",
-              "src/app/VenomMC.png",
-              "src/app/vibemarket.org",
-              "src/app/vibemarket - transparent.png",
-              "src/app/teamx.png",
-              "src/app/profilepicture.png",
+              "src/affinity.png",
+              "src/dashnetwork.png",
+              "src/cloud9.jpg",
+              "src/Kevin D (White).png",
+              "src/Kevin D (Black).png",
+              "src/selfie-rezied.jpg",
+              "src/meleecraft.png",
+              "src/VenomMC-cropped.png",
+              "src/VenomMC.png",
+              "src/vibemarket.org",
+              "src/vibemarket - transparent.png",
+              "src/teamx.png",
+              "src/profilepicture.png",
               "src/archived_projects"
             ],
             "styles": [
@@ -45,7 +45,8 @@
               "src/css.css",
               "src/dropdown.css",
               "src/flipper.css",
-              "src/about.css"
+              "src/about.css",
+              "src/admin.css"
             ],
             "scripts": [
               "src/app/src/jquery.min.js",
