@@ -25,7 +25,20 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/app/src"
+              "src/app/affinity.png",
+              "src/app/dashnetwork.png",
+              "src/app/cloud9.jpg",
+              "src/app/Kevin D (White).png",
+              "src/app/Kevin D (Black).png",
+              "src/app/selfie-rezied.jpg",
+              "src/app/meleecraft.png",
+              "src/app/VenomMC-cropped.png",
+              "src/app/VenomMC.png",
+              "src/app/vibemarket.org",
+              "src/app/vibemarket - transparent.png",
+              "src/app/teamx.png",
+              "src/app/profilepicture.png",
+              "src/archived_projects"
             ],
             "styles": [
               "src/styles.css",
