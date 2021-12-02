@@ -40,10 +40,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+src/.env
 
 # System Files
 .DS_Store
 Thumbs.db
-
-# Archived Projects
-src/archived_projects
