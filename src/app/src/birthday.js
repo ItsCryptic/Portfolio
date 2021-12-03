@@ -1,4 +1,4 @@
-var birthdayDate = new Date("June 21 2022").getTime();
+/*var birthdayDate = new Date("June 21 2022").getTime();
 var newDate = new Date();
 var hour = newDate.getHours();
 //I broke this in testing so I have to use 16 instead of 17 ;-;
@@ -22,4 +22,4 @@ var birthday = setInterval(function() {
         clearInterval(birthday);
         document.getElementById("countdown").innerHTML = "(It's my birthday! 🥳)";
       }
-}, 1000);
+}, 1000);*/
