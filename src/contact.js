@@ -1,5 +1,5 @@
 const contact = { 
-    "email": "kevin.diangelis@gmail.com",
+    "email": "hello@kevind.me",
     "twitter": "@ItsCryptic1"
 }
 
