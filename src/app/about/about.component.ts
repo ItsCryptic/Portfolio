@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
-<<<<<<< HEAD
-=======
 
->>>>>>> 4b077e1244e8c9917109113d69c336378a768a17
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -18,20 +15,8 @@ export class AboutComponent implements OnInit {
   datepipe: DatePipe = new DatePipe('en-US');
   formattedDate = this.datepipe.transform(this.birthdayDate.valueOf() - this.todayNumber, "(in " + "MM dd hh MM ss)");
 
-<<<<<<< HEAD
-  function (params:number) {
-    this.formattedDate = this.datepipe.transform(this.birthdayDate.valueOf() - this.todayNumber, "(in " + "MM dd hh MM ss)");
-  }
-=======
-/*  public countdown: any = setInterval(() => {
-    this.birthdayDate.valueOf() - this.todayNumber, "(in " + "MM dd hh MM ss)"
-  }, 500);*/
->>>>>>> 4b077e1244e8c9917109113d69c336378a768a17
-  constructor() { }
-
   ngOnInit(): void {
   }
-
 
 }
 
