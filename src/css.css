@@ -124,8 +124,11 @@ footer {
     color: white;
     font-size: 30px;
     padding: 5px;
+<<<<<<< HEAD
     margin-left: auto;
     margin-right: auto;
+=======
+>>>>>>> 4b077e1244e8c9917109113d69c336378a768a17
 }
 #link {
  color: white;
@@ -140,4 +143,12 @@ footer {
 #icons {
     padding-left: auto;
     padding-right: auto;
+<<<<<<< HEAD
+=======
+}
+
+#socials-div {
+    display: flex;
+    justify-content: center;
+>>>>>>> 4b077e1244e8c9917109113d69c336378a768a17
 }
