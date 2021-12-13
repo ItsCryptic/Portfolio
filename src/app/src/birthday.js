@@ -1,4 +1,4 @@
-/*var birthdayDate = new Date("June 21 2022").getTime();
+var birthdayDate = new Date("June 21 2022").getTime();
 var newDate = new Date();
 var hour = newDate.getHours();
 //I broke this in testing so I have to use 16 instead of 17 ;-;
@@ -11,7 +11,7 @@ document.getElementById("age").innerHTML = age;
 
 var birthday = setInterval(function() {
     var now = new Date().getTime();
-    var distance = date - now;
+    var distance = newDate - now;
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -22,4 +22,4 @@ var birthday = setInterval(function() {
         clearInterval(birthday);
         document.getElementById("countdown").innerHTML = "(It's my birthday! 🥳)";
       }
-}, 1000);*/
+}, 1000);

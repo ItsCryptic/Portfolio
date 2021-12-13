@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-about',
@@ -7,15 +6,37 @@ import { DatePipe } from '@angular/common';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  /*todayNumber: number = Date.now();
-  todayDate: Date = new Date();
-  todayString: string = new Date().toDateString();
-  todayISOString: string = new Date().toISOString();
-  birthdayDate: Date = new Date("June 21 2022");
-  datepipe: DatePipe = new DatePipe('en-US');
-  formattedDate = this.datepipe.transform(this.birthdayDate.valueOf() - this.todayNumber, "(in " + "MM dd hh MM ss)");*/
 
   ngOnInit(): void {
+var birthdayDate = new Date("June 21 2022");
+var newDate = new Date();
+//I broke this in testing so I have to use 16 instead of 17 ;-;
+var age = 16;
+if (newDate = birthdayDate) {
+  var age = age + 1;
+}
+let age1 = age.toString();
+let newDate1 = newDate.valueOf();
+//@ts-ignore
+document.getElementById("age").innerHTML = age1;
+
+var birthday = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = newDate1 - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // @ts-ignore
+    document.getElementById("countdown").innerHTML = "(in " + days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s" + ")";
+    if (distance < 0) {
+        clearInterval(birthday);
+        //@ts-ignore
+        document.getElementById("countdown").innerHTML = "(It's my birthday! 🥳)";
+      }
+}, 1000);
   }
 
 }

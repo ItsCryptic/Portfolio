@@ -42,8 +42,7 @@
               "src/app/src/discord&spotify.ts",
               "src/app/src/prideMonth.js",
               "src/app/src/login.js",
-              "src/app/src/lightanddark.js",
-              "src/app/src/birthday.ts"
+              "src/app/src/lightanddark.js"
             ]
           },
           "configurations": {
