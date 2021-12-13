@@ -1,6 +1,6 @@
 # Portfolio
 
-Angular rewrite of my portfolio
+My new portfolio
 
 ## Development server
 
