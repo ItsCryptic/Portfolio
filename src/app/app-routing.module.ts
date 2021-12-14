@@ -12,9 +12,8 @@ const routes: Routes = [
  { path: 'about', component: AboutComponent  },
  { path: 'admin', component: AdminComponent},
  { path: 'dashboard', component: DashboardComponent },
- { path: '**', component: NotFound404Component },
- { path: 'archived_projects', redirectTo: 'archived_projects/'},
- { path: 'academics', component: AcademicsComponent }
+ { path: 'academics', component: AcademicsComponent },
+ { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 
 @NgModule({
