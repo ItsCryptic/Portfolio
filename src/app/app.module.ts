@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFound404Component } from './not-found404/not-found404.component';
 import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AcademicsComponent } from './academics/academics.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     NotFound404Component,
     AdminComponent,
     DashboardComponent,
+    AcademicsComponent,
   ],
   imports: [
     BrowserModule,
