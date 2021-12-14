@@ -39,7 +39,7 @@
             "scripts": [
               "src/app/src/jquery.min.js",
               "src/app/src/discord&spotify.ts",
-              "src/app/src/prideMonth.js",
+              "src/app/src/prideMonth.ts",
               "src/app/src/login.js",
               "src/app/src/lightanddark.js"
             ]
