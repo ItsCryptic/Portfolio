@@ -25,7 +25,6 @@
             "assets": [
               "src/assets",
               "src/app/src/img",
-              "src/archived_projects",
               "src/.env"
             ],
             "styles": [
