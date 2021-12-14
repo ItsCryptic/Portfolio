@@ -17,7 +17,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HomeComponent,
     NotFound404Component,
     AdminComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
