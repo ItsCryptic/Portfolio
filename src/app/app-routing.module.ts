@@ -12,7 +12,7 @@ const routes: Routes = [
  { path: 'about', component: AboutComponent  },
  { path: 'admin', component: AdminComponent},
  { path: 'dashboard', component: DashboardComponent },
- { path: 'academics', component: AcademicsComponent },
+ //{ path: 'academics', component: AcademicsComponent },
  { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 
