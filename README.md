@@ -1,4 +1,4 @@
-# Portfolio [![Build Status](http://ci.kevind.me:8080/job/Portfolio/badge/icon?style=flat)](http://ci.kevind.me:8080/job/Portfolio/)
+# Portfolio [(http://ci.kevind.me:8080/job/Portfolio/badge/icon?style=flat)](http://ci.kevind.me:8080/job/Portfolio/)
 
 My new portfolio
 
