@@ -1,0 +1,4 @@
+###### Requirements without versions ######
+os
+dotenv
+requests
