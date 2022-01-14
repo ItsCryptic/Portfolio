@@ -1,4 +1,4 @@
-# Portfolio [![Build Status](http://ci.kevind.me:8080/buildStatus/icon?job=Portfolio)](http://ci.kevind.me:8080/job/Portfolio/)
+# Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/10a03a98-f0a6-4d2c-90ff-4d5b4aac30c9/deploy-status)](https://app.netlify.com/sites/cocky-feynman-17463e/deploys)
 
 My new portfolio
 
