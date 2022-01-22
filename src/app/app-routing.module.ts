@@ -6,6 +6,7 @@ import { NotFound404Component } from './not-found404/not-found404.component';
 import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AcademicsComponent } from './academics/academics.component';
+import { ComissionsComponent } from './comissions/comissions.component';
 
 const routes: Routes = [
  { path: '', component: HomeComponent  },
@@ -13,6 +14,7 @@ const routes: Routes = [
  { path: 'admin', component: AdminComponent},
  { path: 'dashboard', component: DashboardComponent },
  //{ path: 'academics', component: AcademicsComponent },
+ { path: 'comissions', component: ComissionsComponent },
  { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 

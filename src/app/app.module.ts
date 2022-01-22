@@ -8,6 +8,7 @@ import { NotFound404Component } from './not-found404/not-found404.component';
 import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AcademicsComponent } from './academics/academics.component';
+import { ComissionsComponent } from './comissions/comissions.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AcademicsComponent } from './academics/academics.component';
     AdminComponent,
     DashboardComponent,
     AcademicsComponent,
+    ComissionsComponent,
   ],
   imports: [
     BrowserModule,

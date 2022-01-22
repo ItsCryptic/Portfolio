@@ -1,0 +1,20 @@
+/* I dedicate all this code, all my work, to my wife, Darlene, who will 
+have to support me and our three children and the dog once it gets 
+released into the public. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#comissions-container {
+    font-size: large;
+}
+
+#comissions-header {
+    text-align: center;
+}
+
+#comissions-content {
+    display: flex;
+    align-items: center;
+}
