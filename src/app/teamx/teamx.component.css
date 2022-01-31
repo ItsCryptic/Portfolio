@@ -1,0 +1,266 @@
+/* TeamX Stylesheet  */
+/* Dont edit unless you know what you are doing! */
+/* Version: 1.0 */ 
+
+/* Imports */ /* You can add more to this list as needed. */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* CSS Starts */
+.header {
+    height: 500px;
+    width: auto;
+    background-image: url("https://teamx--kevindiangelis1.repl.co/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* Header Text */
+.text {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Learn More Button */
+#read-more {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+/* Learn More Button Continued */
+#read-more:hover {
+    transition: ease-in-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+/* About Us */
+.aboutus {
+    width: auto;
+    margin-top: 1px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 20px;
+}
+/* The bolded section in the about us */
+#bolded {
+    font-weight: bold;
+}
+/* About Us Text */
+#description {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Logo */
+#teamx-logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 20px;
+}
+/* The About Us Header */
+#aboutus-header {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+/* More Buttons */
+.button {
+  font-weight: bold;
+  font-size: 15px;
+  text-emphasis: unset;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+.button:hover {
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 25px;
+  padding: 20px;
+}
+/* Contact Us */
+#contactus {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: whitesmoke;
+  width: auto;
+}
+/* ContactUs Section */
+#contactus-header {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+/* Text in the contactus section */
+#contactus-text {
+  font-family: 'Open Sans', sans-serif;
+}
+/* Body */
+body {
+  background-color: whitesmoke;
+}
+/* Twitter Logo @ Index */
+#twitter-logo {
+  height: 45px;
+  width: 45px;
+}
+/* Twitch Logo @ Index */
+#twitch-logo {
+  height: 45px;
+  width: 45px;
+}
+/* Sponsors Header */
+#sponsors-header {
+  height: 500px;
+  width: auto;
+  background-image: url("https://teamx--kevindiangelis1.repl.co/sponsors.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  padding: 20px;
+  display: block;
+}
+/* Sponsors Text */
+#sponsors-text {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 250px;
+  font-weight: bold;
+}
+/* Demo Div when the site is in development */
+#demo-div {
+  background-color: lightblue;
+  display: block;
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px blue solid;
+}
+/* The text in the demo div */
+#demo-text {
+  color: blue;
+  text-align: center;
+}
+/* Body Container */
+#container {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-width: 480px;
+   padding: 20px;
+   width: 100%;
+   animation: fadein 3s;
+   -moz-animation: fadein 3s; /* Firefox */
+   -webkit-animation: fadein 3s; /* Safari and Chrome */
+   -o-animation: fadein 3s; /* Opera */
+   min-height: 200px;
+}
+/* Sponsors Text/Decoration */
+#sponsors-description {
+  margin-top: 25px;
+}
+/* Website Links */
+.websitelinks {
+  color: black;
+  text-decoration: none;
+}
+/* Little Navigation Bar! */
+#nav {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  margin-top: -10px;
+}
+/* Navigation Hover Event */
+#nav:hover {
+  text-decoration: underline;
+  color: white;
+}
+/* Small Logo Before the Navigation Bar [DEFECATED] */
+#small-logo {
+  float: left;
+  margin-top: -2%;
+}
+
+/* Roster Footer */
+#roster-footer {
+    margin-top: 100%;
+    font-weight: bold;
+  }
+  /* Head Divider in the Roster */
+#head {
+  background-image: url("https://teamx--kevindiangelis1.repl.co/background.png");
+  padding: 20px;
+  border-radius: 25px;
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Roster */
+#roster {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 250px;
+  display: block;
+  color: white;
+}  
+/* Teams on the roster */
+.teams {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Keyframes */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Smooth Scrolling! */
+html {
+  scroll-behavior: smooth;
+}
+
+/* End of file :/ I dont know why you are here */

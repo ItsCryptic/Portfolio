@@ -9,6 +9,8 @@ import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { ComissionsComponent } from './comissions/comissions.component';
+import { StateComponent } from './state/state.component';
+import { TeamxComponent } from './teamx/teamx.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { ComissionsComponent } from './comissions/comissions.component';
     DashboardComponent,
     AcademicsComponent,
     ComissionsComponent,
+    StateComponent,
+    TeamxComponent,
   ],
   imports: [
     BrowserModule,

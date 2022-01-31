@@ -7,6 +7,8 @@ import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { ComissionsComponent } from './comissions/comissions.component';
+import { StateComponent } from './state/state.component';
+import { TeamxComponent } from './teamx/teamx.component';
 
 const routes: Routes = [
  { path: '', component: HomeComponent  },
@@ -15,6 +17,8 @@ const routes: Routes = [
  { path: 'dashboard', component: DashboardComponent },
  //{ path: 'academics', component: AcademicsComponent },
  { path: 'comissions', component: ComissionsComponent },
+ //{ path: 'projects/state', component: StateComponent},
+ //{ path: 'projects/teamx', component: TeamxComponent},
  { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 
