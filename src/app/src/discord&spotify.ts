@@ -23,4 +23,4 @@ function Api() {
 }
 
 Api()
-setInterval(Api, 30000);
+setInterval(Api, 3000);
