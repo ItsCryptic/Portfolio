@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StateComponent implements OnInit {
 
-  constructor() { }
+  public constructor(private titleService: Title) { }
+
+  public setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
+  }
 
   ngOnInit(): void {
+    this.setTitle("Kevin D - Florida")
   }
 
 }
