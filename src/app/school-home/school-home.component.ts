@@ -2,20 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-state',
-  templateUrl: './state.component.html',
-  styleUrls: ['./state.component.css']
+  selector: 'app-school-home',
+  templateUrl: './school-home.component.html',
+  styleUrls: ['./school-home.component.css']
 })
-export class StateComponent implements OnInit {
+export class SchoolHomeComponent implements OnInit {
 
   public constructor(private titleService: Title) { }
 
   public setTitle(newTitle: string) {
     this.titleService.setTitle(newTitle);
   }
-
   ngOnInit(): void {
-    this.setTitle("Kevin D - Florida")
+    this.setTitle("Kevin D - School Portfolio");
   }
 
 }

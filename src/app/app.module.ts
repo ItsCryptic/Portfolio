@@ -11,6 +11,7 @@ import { AcademicsComponent } from './academics/academics.component';
 import { ComissionsComponent } from './comissions/comissions.component';
 import { StateComponent } from './state/state.component';
 import { TeamxComponent } from './teamx/teamx.component';
+import { SchoolHomeComponent } from './school-home/school-home.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { TeamxComponent } from './teamx/teamx.component';
     ComissionsComponent,
     StateComponent,
     TeamxComponent,
+    SchoolHomeComponent,
   ],
   imports: [
     BrowserModule,
