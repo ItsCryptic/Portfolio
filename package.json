@@ -18,7 +18,7 @@
     "@angular/compiler": "~13.0.0",
     "@angular/core": "~13.2.1",
     "@angular/forms": "~13.2.2",
-    "@angular/platform-browser": "~13.2.1",
+    "@angular/platform-browser": "~13.2.2",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.1",
     "@types/jquery": "^3.5.13",
