@@ -16,11 +16,11 @@ const routes: Routes = [
  { path: 'about', component: AboutComponent  },
  { path: 'admin', component: AdminComponent},
  { path: 'dashboard', component: DashboardComponent },
- { path: 'academics', component: AcademicsComponent },
+ { path: 'school/academics', component: AcademicsComponent },
  { path: 'comissions', component: ComissionsComponent },
  { path: 'school/projects/state', component: StateComponent},
  //{ path: 'projects/teamx', component: TeamxComponent},
- //{ path: 'school', component: SchoolHomeComponent },
+ { path: 'school', component: SchoolHomeComponent },
  { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 

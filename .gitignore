@@ -41,7 +41,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-src/.env
+src/app/.env
 _config.yml
 
 # System Files
