@@ -17,4 +17,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        args: Release-${{ secrets.GITHUB_SHA }}
+        args: Release-${{ secrets.GITHUB_RUN_NUMBER }}
