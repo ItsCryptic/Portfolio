@@ -15,6 +15,6 @@ jobs:
     - name: Create a Release
       uses: elgohr/Github-Release-Action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        GITHUB_TOKEN: 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
       with:
         args: Automated release
