@@ -19,7 +19,7 @@
     "@angular/core": "~13.2.5",
     "@angular/forms": "~13.3.0",
     "@angular/platform-browser": "~13.2.6",
-    "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.2.6",
     "@types/jquery": "^3.5.14",
     "dotenv": "^16.0.0",
