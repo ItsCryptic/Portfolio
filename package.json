@@ -13,7 +13,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~13.3.2",
+    "@angular/animations": "~13.3.4",
     "@angular/common": "~13.3.2",
     "@angular/compiler": "~13.0.0",
     "@angular/core": "~13.3.0",
@@ -35,7 +35,7 @@
     "@angular/compiler-cli": "~13.0.0",
     "@cypress/schematic": "^1.6.0",
     "@types/jasmine": "~4.0.2",
-    "@types/node": "^17.0.24",
+    "@types/node": "^17.0.25",
     "cypress": "latest",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.18",
