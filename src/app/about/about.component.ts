@@ -21,6 +21,13 @@ ngOnInit(): void {
   if (newDate = birthdayDate) {
     var age = age + 1;
   }
+  if (age == 18) {
+    //@ts-ignore
+    document.getElementById("aan").innerHTML = "an ";
+  }else {
+    //@ts-ignore
+    document.getElementById("aan")?.innerHTML = "a ";
+  }
   let ageString = age.toString();
   let newDateNumber = newDate.valueOf();
   //@ts-ignore
