@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/portfolio-new'),
+      dir: require('path').join(__dirname, './coverage/Portfolio'),
       subdir: '.',
       reporters: [
         { type: 'html' },
@@ -33,6 +33,12 @@ module.exports = function (config) {
       ]
     },
     reporters: ['progress', 'kjhtml'],
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox']
+      }
+    },
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
