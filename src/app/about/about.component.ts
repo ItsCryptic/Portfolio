@@ -17,7 +17,7 @@ ngOnInit(): void {
   var birthdayDate = new Date("June 21 2022");
   var newDate = new Date();
   //I broke this in testing so I have to use 16 instead of 17 ;-;
-  var age = 16;
+  var age = 17;
   if (newDate = birthdayDate) {
     var age = age + 1;
   }
