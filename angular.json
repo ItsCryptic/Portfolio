@@ -3,13 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Portfolio": {
+    "Portfolio-new-new": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -17,30 +13,26 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Portfolio",
+            "outputPath": "dist/portfolio-new-new",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/assets",
-              "src/app/src/img",
-              "src/app/.env"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/css.css",
+              "src/about.css",
               "src/dropdown.css",
               "src/flipper.css",
-              "src/about.css",
               "src/admin.css",
-              "src/dashboard.css"
+              "src/css.css"
             ],
             "scripts": [
               "src/app/src/jquery.min.js",
-              "src/app/src/discord&spotify.ts",
-              "src/app/src/lightanddark.js",
-              "src/app/auth.ts"
+              "src/app/src/discord&spotify.js",
+              "src/app/src/lightanddark.js"
             ]
           },
           "configurations": {
@@ -66,8 +58,8 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": true,
-              "optimization": true,
+              "buildOptimizer": false,
+              "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
@@ -80,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Portfolio:build:production"
+              "browserTarget": "Portfolio-new-new:build:production"
             },
             "development": {
-              "browserTarget": "Portfolio:build:development"
+              "browserTarget": "Portfolio-new-new:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Portfolio:build"
+            "browserTarget": "Portfolio-new-new:build"
           }
         },
         "test": {
@@ -110,43 +102,11 @@
             ],
             "scripts": []
           }
-        },
-        "cypress-run": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "Portfolio:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "Portfolio:serve:production"
-            }
-          }
-        },
-        "cypress-open": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "watch": true,
-            "headless": false
-          }
-        },
-        "e2e": {
-          "builder": "@cypress/schematic:cypress",
-          "options": {
-            "devServerTarget": "Portfolio:serve",
-            "watch": true,
-            "headless": false
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "Portfolio:serve:production"
-            }
-          }
         }
       }
     }
   },
-  "defaultProject": "Portfolio",
   "cli": {
-    "analytics": "aab27ce1-bff4-4593-8898-39f5a459ace5"
+    "analytics": "9be559ac-5141-4728-ae52-d3a4b113e288"
   }
 }
