@@ -12,6 +12,7 @@ import { ComissionsComponent } from './comissions/comissions.component';
 import { StateComponent } from './state/state.component';
 import { TeamxComponent } from './teamx/teamx.component';
 import { SchoolHomeComponent } from './school-home/school-home.component';
+import { GpgComponent } from './gpg/gpg.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { SchoolHomeComponent } from './school-home/school-home.component';
     StateComponent,
     TeamxComponent,
     SchoolHomeComponent,
+    GpgComponent,
   ],
   imports: [
     BrowserModule,

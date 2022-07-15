@@ -10,6 +10,7 @@ import { ComissionsComponent } from './comissions/comissions.component';
 import { StateComponent } from './state/state.component';
 import { TeamxComponent } from './teamx/teamx.component';
 import { SchoolHomeComponent } from './school-home/school-home.component';
+import { GpgComponent } from './gpg/gpg.component';
 
 const routes: Routes = [
  { path: '', component: HomeComponent  },
@@ -21,6 +22,7 @@ const routes: Routes = [
  { path: 'school/projects/state', component: StateComponent},
  //{ path: 'projects/teamx', component: TeamxComponent},
  { path: 'school', component: SchoolHomeComponent },
+ { path: 'gpg', component: GpgComponent},
  { path: '**', component: NotFound404Component }  //Don't put anything after this.
 ];
 
