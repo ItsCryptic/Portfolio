@@ -31,7 +31,7 @@ import { GpgComponent } from './gpg/gpg.component';
     GpgComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
   ],
   providers: [
