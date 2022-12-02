@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    name: NodeJS
     runs-on: ubuntu-latest
 
     strategy:
