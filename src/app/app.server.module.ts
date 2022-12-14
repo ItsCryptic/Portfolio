@@ -18,17 +18,7 @@ import { SchoolHomeComponent } from './school-home/school-home.component';
   imports: [
     AppModule,
     ServerModule,
-    AboutComponent,
-    HomeComponent,
-    GpgComponent,
-    TeamxComponent,
-    StateComponent,
-    AcademicsComponent,
-    AdminComponent,
-    ComissionsComponent,
-    DashboardComponent,
-    SchoolHomeComponent,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, HomeComponent, AboutComponent, DashboardComponent, AcademicsComponent, GpgComponent, TeamxComponent, StateComponent, AdminComponent],
 })
 export class AppServerModule {}
