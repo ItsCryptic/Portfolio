@@ -38,7 +38,7 @@
     "@nguniversal/builders": "^15.2.0",
     "@types/express": "^4.17.17",
     "@types/jasmine": "~4.3.1",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.2",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.1",
     "karma-chrome-launcher": "~3.1.0",
