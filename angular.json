@@ -32,7 +32,8 @@
             "scripts": [
               "src/app/src/jquery.min.js",
               "src/app/src/discord&spotify.js",
-              "src/app/src/lightanddark.js"
+              "src/app/src/lightanddark.js",
+              "src/app/src/analytics.js"
             ]
           },
           "configurations": {
