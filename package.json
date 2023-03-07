@@ -25,7 +25,7 @@
     "@angular/router": "^15.2.1",
     "@nguniversal/express-engine": "^15.2.0",
     "express": "^4.15.2",
-    "qs": "^6.11.0",
+    "qs": "^6.11.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.5.0",
     "ua-parser-js": "^1.0.34",
