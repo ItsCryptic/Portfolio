@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
   }
 ngOnInit(): void {
   this.setTitle('Kevin D - About')
-  var birthdayDate = new Date("June 21 2023");
+  var birthdayDate = new Date("June 21 2024");
   var newDate = new Date();
   //I broke this in testing so I have to use 16 instead of 17 ;-;
   var age = 17;
