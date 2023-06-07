@@ -1,7 +1,7 @@
 function Api() {
     $(document).ready(function(){
             $.get("https://api.lanyard.rest/v1/users/202556225160871936", function({data}){
-                $(".discord-tag").html(`<i class="fab fa-discord"></i>&nbsp;Discord Tag: ${data.discord_user.username}#${data.discord_user.discriminator}`)
+                $(".discord-tag").html(`<i class="fab fa-discord"></i>&nbsp;Discord Username: ${data.discord_user.username}`)
                 
                 if (data.discord_status === 'dnd') {
                     $(".discord-status").html(`<i class="fab fa-discord"></i>&nbsp;Discord Status: <div class="spinner-grow text-danger"></div> Do Not Disturb`)
