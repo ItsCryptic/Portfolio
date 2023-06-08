@@ -22,7 +22,7 @@
     "@angular/platform-browser": "^16.0.2",
     "@angular/platform-browser-dynamic": "^16.0.2",
     "@angular/platform-server": "^16.0.2",
-    "@angular/router": "^16.0.2",
+    "@angular/router": "^16.0.4",
     "@nguniversal/express-engine": "^16.0.2",
     "express": "^4.15.2",
     "qs": "^6.11.2",
