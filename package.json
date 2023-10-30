@@ -28,7 +28,7 @@
     "qs": "^6.11.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.6.2",
-    "ua-parser-js": "^1.0.36",
+    "ua-parser-js": "^1.0.37",
     "zone.js": "~0.13.3"
   },
   "devDependencies": {
