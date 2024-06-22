@@ -16,7 +16,7 @@ ngOnInit(): void {
   this.setTitle('Kevin D - About')
   var birthdayDate = new Date("June 21 2025");
   var newDate = new Date();
-  var age = 18;
+  var age = 19;
   if (newDate = birthdayDate) {
     var age = age + 1;
   }
